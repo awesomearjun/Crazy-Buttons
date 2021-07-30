@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  border: 2px solid black;
+  padding: 20em;
+  padding-top: 16em;
+  border-radius: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  padding-bottom: 1em;
+}
+
+.left {
+  position: absolute;
+  left: 1em;
+}
+
+.right {
+  position: absolute;
+  right: 1em;
+}
+
+.center-left {
+  position: absolute;
+  left: 13em;
+}
+
+.center-right {
+  position: absolute;
+  right: 13em;
+}

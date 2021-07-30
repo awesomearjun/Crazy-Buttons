@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>{{ value }}</h1>
+  <div class="buttons">
+    <app-button
+      text="+1"
+      backgroundColor="blue"
+      textColor="white"
+      class="left"
+      (click)="add()"
+    ></app-button>
+    <app-button
+      text="-1"
+      backgroundColor="red"
+      textColor="white"
+      class="center-left"
+      (click)="subtract()"
+    ></app-button>
+    <app-button
+      text="x2"
+      backgroundColor="purple"
+      textColor="white"
+      class="center-right"
+      (click)="multiply()"
+    ></app-button>
+    <app-button
+      text="÷2"
+      backgroundColor="#FFC800"
+      textColor="black"
+      class="right"
+      (click)="divide()"
+    ></app-button>
+  </div>
+</div>
